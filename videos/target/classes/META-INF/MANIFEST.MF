@@ -1,9 +1,10 @@
 Manifest-Version: 1.0
 Implementation-Title: videos
-Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Version: 0.1.1-SNAPSHOT
 Built-By: jdotero
-Implementation-Vendor-Id: com.jdios.gdg
+Implementation-Vendor-Id: com.jdios.gdg.clients
 Build-Jdk: 1.8.0_65
-Implementation-URL: http://maven.apache.org
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/spring-cloud-netflix/videos
 Created-By: Maven Integration for Eclipse
 

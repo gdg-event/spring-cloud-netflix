@@ -1,2 +1,8 @@
-/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/controller/ClientController.java
-/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/App.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/aspects/LogExecutionTime.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/service/implementation/ClientServiceImpl.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/controller/ClientController.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/config/SwaggerConfig.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/repository/IClientRepository.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/service/IClientService.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/aspects/LoggerAspect.java
+/Users/jdotero/git/spring-cloud-netflix-gdg/clients/src/main/java/com/jdios/gdg/clients/ClientsApplication.java

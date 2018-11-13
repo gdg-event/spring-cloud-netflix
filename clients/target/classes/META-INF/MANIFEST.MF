@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Implementation-Title: clients
-Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Version: 0.1.1-SNAPSHOT
 Built-By: jdotero
-Implementation-Vendor-Id: com.jdios.gdg
+Implementation-Vendor-Id: com.jdios.gdg.clients
 Build-Jdk: 1.8.0_65
 Implementation-URL: http://maven.apache.org
 Created-By: Maven Integration for Eclipse
