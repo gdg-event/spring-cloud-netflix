@@ -46,8 +46,8 @@
 		<!-- Models -->
 		<dependency>
 			<groupId>com.jdios.gdg.library</groupId>
-			<artifactId>models</artifactId>
-			<version>0.1.1-SNAPSHOT</version>
+			<artifactId>domain</artifactId>
+			<version>0.1.2-SNAPSHOT</version>
 		</dependency>
 
 		<!-- Persistence -->
@@ -90,6 +90,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<finalName>clients-microservice</finalName>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<configuration>
+					<useProjectReferences>false</useProjectReferences>
 				</configuration>
 			</plugin>
 		</plugins>

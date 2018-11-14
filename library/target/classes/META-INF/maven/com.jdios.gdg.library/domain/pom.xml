@@ -8,11 +8,13 @@
 		<artifactId>spring-cloud-netflix</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+	
+	
 	<groupId>com.jdios.gdg.library</groupId>
-	<artifactId>models</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
-	<name>models</name>
+	<artifactId>domain</artifactId>
+	<version>0.1.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	<name>models</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

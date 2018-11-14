@@ -118,12 +118,4 @@ public class ClientController {
 		return clientService.searchClient(search);
 	}
 
-	
-	
-	
-	
-	
-	
-
-
 }

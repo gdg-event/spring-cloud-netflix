@@ -1,2 +1,35 @@
+# Server Configuration
 server:
-  port: 0
+  port: 8090
+
+# Logger format
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %clr(%5p) - %-40.40c{1.}: %msg%n"  
+
+# Spring Configuration  
+spring:
+  #Application Name
+  application:
+    name: Video Microservice
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  #Persistence properties
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+        type: trace 
+  #Memory Data Source  
+  datasource:
+    url: jdbc:mysql://localhost:3306/videos_microservice?useSSL=false
+    username: root
+    password:  

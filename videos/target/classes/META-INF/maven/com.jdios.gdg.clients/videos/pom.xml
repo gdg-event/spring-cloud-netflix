@@ -1,26 +1,27 @@
 <?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  
-  	 <!-- Parent Declaration -->
-	 <parent>
-	    <groupId>com.jdios.gdg</groupId>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Parent Declaration -->
+	<parent>
+		<groupId>com.jdios.gdg</groupId>
 		<artifactId>spring-cloud-netflix</artifactId>
-	   	<version>0.0.1-SNAPSHOT</version>
-	 </parent>
-  
-  
-  
-  	 <!-- Properties Definition & Version Management -->
-	 <groupId>com.jdios.gdg.clients</groupId>
-	 <artifactId>videos</artifactId>
-	 <version>0.1.1-SNAPSHOT</version>
-	 <name>videos</name>
-  
-  
-  
-  	<!-- Properties Definition & Version Management -->
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+
+
+	<!-- Properties Definition & Version Management -->
+	<groupId>com.jdios.gdg.clients</groupId>
+	<artifactId>videos</artifactId>
+	<version>0.1.1-SNAPSHOT</version>
+	<name>videos</name>
+
+
+
+	<!-- Properties Definition & Version Management -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -44,8 +45,8 @@
 		<!-- Models -->
 		<dependency>
 			<groupId>com.jdios.gdg.library</groupId>
-			<artifactId>models</artifactId>
-			<version>0.1.1-SNAPSHOT</version>
+			<artifactId>domain</artifactId>
+			<version>0.1.2-SNAPSHOT</version>
 		</dependency>
 
 		<!-- Persistence -->
@@ -53,10 +54,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		<!-- Use MySQL Connector-J -->
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 		<!-- Swagger Archetype Documentation -->
 		<dependency>
@@ -88,6 +89,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<finalName>video-microservice</finalName>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<configuration>
+					<useProjectReferences>false</useProjectReferences>
 				</configuration>
 			</plugin>
 		</plugins>

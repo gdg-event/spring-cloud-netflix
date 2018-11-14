@@ -6,6 +6,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.jdios.gdg.library.clients.Client;
 
+/**
+ * Client Repository
+ * @author jdotero
+ *
+ */
 @Repository
 public interface IClientRepository extends JpaRepository<Client, Long> {
    @Transactional
