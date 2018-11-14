@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /clients-microservice
+  port: 8081
+  
+  
+#Custom Variables
+greeting: "Hello GDG!"

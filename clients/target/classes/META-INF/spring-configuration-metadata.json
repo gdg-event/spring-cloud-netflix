@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jdios.gdg.clients.config.PropertiesConfig",
+      "name": "",
+      "type": "com.jdios.gdg.clients.config.PropertiesConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jdios.gdg.clients.config.PropertiesConfig",
+      "name": "greeting",
+      "type": "java.lang.String"
+    }
+  ]
+}

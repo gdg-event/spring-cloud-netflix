@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: config
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: jdotero
+Implementation-Vendor-Id: com.jdios.gdg
+Build-Jdk: 1.8.0_65
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/spring-cloud-netflix/config
+Created-By: Maven Integration for Eclipse
+

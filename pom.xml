@@ -48,5 +48,6 @@
 		<module>clients</module>
 		<module>videos</module>
 		<module>models</module>
+    <module>config</module>
   </modules>
 </project>

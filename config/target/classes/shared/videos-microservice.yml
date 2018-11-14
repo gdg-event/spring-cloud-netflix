@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /videos-microservice
+  port: 8082
+  
+  
+#Custom Variables
+greeting: "Hello GDG!"
